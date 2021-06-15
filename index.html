@@ -11,7 +11,7 @@
 </head>
 <center>
 <body>
-<form action="#" method="post" enctype="multipart/form-data">
+<form action="index.php" method="get">
 <div>
 <br>
 <p><b>Регистрация</b></p>
@@ -19,36 +19,41 @@
 <br>
 <div>
 <p>Имя</p>
-<input required tabindex="1" name="username" type="text" />
+<input required tabindex="1" name="name" type="text" />
 </div>
 <br>
 <div>
 <p>Фамилия</p>
-<input required tabindex="2" name="usersurname" type="text" />
+<input required tabindex="2" name="surname" type="text" />
 </div>
 <br>
 <div>
 <p>Email</p>
-<input required placeholder="Me@mail.ru" tabindex="2" name="username" type="text" />
+<input required placeholder="Me@mail.ru" tabindex="3" name="email" type="text" />
 </div>
 <br>
 <div>
-<p>Пароль</p>
-<input tabindex="3" name="userpass" type="password" />
+<p>Название организации</p>
+<input tabindex="4" name="company_name" type="text" />
+</div>
+<br>
+<div>
+<p>Должность</p>
+<input tabindex="5" name="position" type="text" />
 </div>
 <br>
 <div>
 <p>Телефоны</p>
-<input tabindex="4" name="userphone" type="tel" />
-<input tabindex="5" name="userphone" type="tel" />
-<input tabindex="6" name="userphone" type="tel" />
+<input tabindex="6" name="phone_1" type="tel" />
+<input tabindex="7" name="phone_2" type="tel" />
+<input tabindex="8" name="phone_3" type="tel" />
 </div>
 <div>
 <br>
 <br>
 <p>Действия</p>
-<button tabindex="7" type="submit">Отправить</button>
-<button tabindex="8" type="reset">Очистить</button>
+<button tabindex="9" type="submit">Отправить</button>
+<button tabindex="10" type="reset">Очистить</button>
 </div>
 </form>
 </body>
